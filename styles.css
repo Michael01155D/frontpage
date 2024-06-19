@@ -81,7 +81,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto;
 }
 
 .middle-content > h3 {
@@ -92,9 +91,37 @@ a {
 .main-images {
     display: flex;
     justify-content: center;
-    gap: 5px;
+}
+
+.image-with-description {
+    text-align: center;
 }
 
 .image-with-description > img {
     width: 50%;
+}
+
+.quote {
+    background-color: var(--secondary-bg-color);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: var(--main-bg-color);
+}
+
+.quote > p:first-child {
+    color: var(--main-bg-color);
+    font-style: italic;
+    font-size: 36px;
+    width: 50%;
+}
+#quote-author {
+    color: var(--main-bg-color);
+    font-weight: 900;
+    align-self: flex-end;
+    margin-right: 35%;
 }
