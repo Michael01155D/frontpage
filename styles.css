@@ -158,3 +158,15 @@ a {
     border-radius: 5px;
     padding: 2px 15px;
 }
+
+.footer {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > p {
+    padding: 5px;
+}
