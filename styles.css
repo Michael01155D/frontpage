@@ -50,14 +50,16 @@ a {
 .signup {
     color: var(--main-text-color);
     width: 25%;
+    padding-bottom: 10px;
 }
 .upper-content > img {
     margin-right: 3em;
+    height: 20%;
 }
 
 .signup > h3 {
     font-size: var(--main-text-size);
-    margin-bottom: 1px;
+    margin-bottom: 0;
 }
 
 .signup > p {
