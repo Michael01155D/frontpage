@@ -1,0 +1,75 @@
+:root {
+    --main-bg-color: #1f2937;
+    --main-text-size: 48px;
+    --main-text-color: #f9faf8;
+    --secondary-text-size: 18px;
+    --secondary-text-color: #e5e7eb;
+    --button-color: #3882f6;
+    --secondary-bg-color: #e5e7eb;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    font-size: var(--secondary-text-size);
+}
+
+.header {
+    display: flex;
+    background-color: var(--main-bg-color);
+    height: 60px;
+    justify-content: space-around;
+}
+
+.header > img {
+    margin-left: 5em;
+}
+
+.links {
+    margin-top: 10px;
+    margin-right: 10em;
+}
+
+.links > a {
+    padding: 15px;
+}
+
+.upper-content {
+    display: flex;
+    background-color: var(--main-bg-color);
+    gap: 50px;
+    justify-content: center;
+}
+
+.signup {
+    color: var(--main-text-color);
+    width: 25%;
+}
+.upper-content > img {
+    margin-right: 3em;
+}
+
+.signup > h3 {
+    font-size: var(--main-text-size);
+    margin-bottom: 1px;
+}
+
+.signup > p {
+    font-size: var(--secondary-text-size);
+    color: var(--secondary-text-color);
+}
+
+.signup > button {
+    background-color: var(--button-color);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 1em 2em;
+    font-weight: bold;
+}
